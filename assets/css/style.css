@@ -134,6 +134,10 @@ body{
             padding: 1em 10em;
             display: flex;
             flex-direction: column;
+            
+        }
+        main .recensioni .caselleRecenzioni{
+            width: 50%;
         }
         main .recensioni .caselleRecenzioni .name img{
             float: left;
@@ -167,17 +171,31 @@ body{
             padding: 0.4em;
             border-radius: 2em;
         }
-        /* main .recensioni .caselleRecenzioni .data img.salva{
-            padding-left: 16em;
-            padding-top: 1em;
-            clear: right;
-        } */
+        main .recensioni .caselleRecenzioni .data img.salva{
+            float: left;
+        }
         main .recensioni .caselleRecenzioni .immagine img{
             width: 150px;
             position: relative;
             float: right;
             top: -6em;
-            right: 55em;
         }
     /*Fine Main div class recensioni*/
+    /*Inizio Main div class discover*/
+        main .discover .pulsanti{
+            display: flex;
+        }
+        main .discover p{
+            text-transform: uppercase;
+            margin-bottom: 2em;
+        }
+        main .discover .pulsanti a{
+            margin: 1em;
+            border: 1px solid rgba(189, 189, 189, 0.5);
+            text-decoration: none;
+            color: grey;
+            padding: 1em;
+            border-radius: 0.5em;
+        }
+    /*Fine Main div class discover*/
 /*Fine Main*/
