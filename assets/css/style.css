@@ -1,0 +1,183 @@
+/*Desktop*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Robolo', sans-serif;
+}
+/*Inizio Header*/
+    header{
+        background: #ffc017;
+        padding: 2em 10em;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        padding-top: 5px;
+    }
+    header nav ul li{
+        list-style-type: none;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: black;
+        margin-left: 1em;
+    }
+    header nav ul li.getStarted a{
+        background: black;
+        border: none;
+        color: #fff;
+        padding: 1em 1.5em;
+        border-radius: 2em;
+    }
+/*Fine Header*/
+/*Inizio Main*/
+    /*Inizio Main div class stayCurious*/
+        main .stayCurious {
+            background: #ffc017;
+            /* padding: 0 10em; */
+            height: 500px;
+            padding-left: 10em;
+            border-bottom: 1px solid #000;
+        }
+        main .stayCurious h1, main .stayCurious p, main .stayCurious a {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        main .stayCurious h1{
+            font-family: 'Spectral', serif;
+            font-size: 8em;
+            padding-bottom: 0.2em;
+            padding-top: 100px;
+        }
+        main .stayCurious svg{
+            display: none;
+        }
+        main .stayCurious p{
+            margin-bottom: 2em;
+            font-size: 1.8em;
+        }
+        main .stayCurious a{
+            background: black;
+            border: none;
+            color: #fff;
+            padding: 0.7em 0;
+            border-radius: 2em;
+            text-decoration: none;
+            width: 180px;
+            text-align: center;
+        }
+    /*Fine Main div class stayCurious*/
+    /*Inizio Main div class trendingOnMedium*/
+        main .trendingOnMedium{
+            border-bottom: 1px solid rgba(189, 189, 189, 0.5);
+            padding: 1em 10em;
+        } 
+        main .trendingOnMedium .treding img{
+            float: left;
+        }
+        main .trendingOnMedium .treding h2{
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-top: 7px;
+            clear: right;
+        }
+        .contenitoreCaselle{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        main .trendingOnMedium .caselle{
+            padding-top: 1em;
+            margin-right: 0.5em;
+        }
+        main .trendingOnMedium .caselle .number{
+            color: rgba(173, 173, 173, 0.5);
+            font-size: 2em;
+            padding-right: 1em;
+            float: left;
+            font-weight: bold;
+        }
+        main .trendingOnMedium .caselle .textName img{
+            border-radius: 50%;
+            width: 30px;
+            float: left;
+            margin-right: 1em;
+        }
+        main .trendingOnMedium .caselle .textName p{
+            padding-top: 0.7em;
+            font-size: 0.8em;
+            font-weight: bold;
+            min-width: 400px;
+        }
+       
+        main .trendingOnMedium .caselle .text p:first-of-type{
+            
+            margin-top: 1em;
+            margin-left: 4.2em;
+            font-weight: bold;
+        }
+        main .trendingOnMedium .caselle .text p:last-of-type{
+            color:rgba(173, 173, 173);
+            margin-left: 4.2em;
+            line-height: 2.5;
+        }
+    /*Fine Main div class trendingOnMedium*/
+    /*Inizio Main div class recensioni*/
+        main .recensioni{
+            padding: 1em 10em;
+            display: flex;
+            flex-direction: column;
+        }
+        main .recensioni .caselleRecenzioni .name img{
+            float: left;
+            border-radius: 50%;
+        }
+        main .recensioni .caselleRecenzioni .name p{
+            padding-top: 1em;
+            font-size: 0.8em;
+            font-weight: bold;
+            min-width: 400px;
+            padding-bottom: 0.5em;
+            clear: right;
+        }
+        main .recensioni .caselleRecenzioni .title p{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 0.5em;
+            padding-top: 10px;
+        }
+        main .recensioni .caselleRecenzioni .comment p{
+            color:rgba(173, 173, 173);
+            padding-bottom: 0.5em;
+        }
+        main .recensioni .caselleRecenzioni .data p{
+            color:rgba(173, 173, 173);
+            font-size: 0.8em;
+            float: left;
+        }
+        main .recensioni .caselleRecenzioni .data p span{
+            background: rgba(173, 173, 173, 0.2);
+            padding: 0.4em;
+            border-radius: 2em;
+        }
+        /* main .recensioni .caselleRecenzioni .data img.salva{
+            padding-left: 16em;
+            padding-top: 1em;
+            clear: right;
+        } */
+        main .recensioni .caselleRecenzioni .immagine img{
+            width: 150px;
+            position: relative;
+            float: right;
+            top: -6em;
+            right: 55em;
+        }
+    /*Fine Main div class recensioni*/
+/*Fine Main*/
